@@ -53,7 +53,7 @@ export default function SettingsScreen() {
 
       <SectionHeader title="Your data" />
       <Card style={styles.group}>
-        <Row icon="cloud-upload-outline" title="Backup & restore" subtitle="Save a copy of all leads and invoices" onPress={() => router.push('/settings/backup')} />
+        <Row icon="cloud-upload-outline" title="Backup & export" subtitle="Save Excel, invoice PDFs and backup to phone storage" onPress={() => router.push('/settings/backup')} />
       </Card>
       <View style={styles.note}>
         <Ionicons name="phone-portrait-outline" size={16} color={colors.textSecondary} />

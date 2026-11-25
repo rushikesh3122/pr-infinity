@@ -35,7 +35,7 @@ function RootNavigator() {
         <Stack.Screen name="settings/company" options={{ title: 'Company Profile' }} />
         <Stack.Screen name="settings/billing" options={{ title: 'Invoice & Tax' }} />
         <Stack.Screen name="settings/bank" options={{ title: 'Bank & Terms' }} />
-        <Stack.Screen name="settings/backup" options={{ title: 'Backup & Restore' }} />
+        <Stack.Screen name="settings/backup" options={{ title: 'Backup & Export' }} />
     </Stack>
   );
 }
